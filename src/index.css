@@ -14,7 +14,7 @@ text-decoration: none;
 --color-bg-variant:#2c2c6c;
 --color-primary:#4db5ff;
 --color-primary-variant: rgba(77,181,255,0.4);
---color-white:#3C486B;
+--color-white:#261C2C;
 --color-light:rgba(255,255,255,0.6);
 
 --container-width-lg: 75%;
@@ -37,5 +37,37 @@ body{
 font-family: "Poppins",sand-serif;
 background: var(--color-bg);
 color:var(--color-white);
-line-height:1.7 ;
+line-height:1.7;
+background-image: url(../src/assets/cactusten.png);
+background-size: 100%;
+
 }
+
+.container{
+
+    width:var(--container-width-lg);
+    margin:0 auto;
+}
+
+h1, h2, h3, h4, h5{
+    font-weight: 500;
+}
+
+h1{
+
+    font-size: 2.5rem;
+}
+
+section > h2, section > h5 {
+
+    text-align: center;
+    color: var(--color-light);
+
+}
+
+section > h2{
+
+color: var(--color-primary);
+
+}
+
