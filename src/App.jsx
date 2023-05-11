@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './componets/header/Header';
-import Nav from  './componets/nav/Nav';
+import Nav from './componets/nav/Nav';
 import About from './componets/about/About';
 import Experience from './componets/experience/Experience';
 import Services from './componets/services/Services';
@@ -12,19 +12,19 @@ import Footer from './componets/footer/Footer';
 
 const App = () => {
   return (
-   
-<>
-<Header/>
-<Nav/>
-<About/>
-<Experience/>
-<Services/>
-<Portfolio/>
-<Testimonials/>
-<Contact/>
-<Footer/>
 
-</>
+    <>
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+      <Services />
+      <Portfolio />
+      <Testimonials />
+      <Contact />
+      <Footer />
+
+    </>
 
   )
 }
